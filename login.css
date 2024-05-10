@@ -112,17 +112,21 @@ label {
 /*Register*/
 .register {
   background: #eee;
+  width: 100%;
   border-radius: 60% / 10%;
   transform: translateY(5%);
   transition: 0.8s ease-in-out;
 }
-
+.register form{
+  height: 50rem;
+}
 .register label {
+  font-size: 3rem;
   color: #ce6857;
   transform: scale(0.6);
 }
 #chk:checked ~ .register {
-  transform: translateY(-69%);
+  transform: translateY(-48%);
 }
 
 #chk:checked ~ .register label {
