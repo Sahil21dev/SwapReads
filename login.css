@@ -3,7 +3,6 @@ body {
   height: 100%;
   font-family: var(--ff-philosopher);
   font-size: 4rem;
-  /* background-color: #c9acc2; */
   background-color: #f5ebe6;
   display: flex;
   flex-direction: column;
@@ -33,50 +32,6 @@ body {
 }
 .container {
 }
-/* .col-sm-5{
-    margin-left:200px;
-    align-items: right;
-    margin-bottom: 200px;
-}
-.col-sm-4{
-    margin-left: 0px;
-}
-.loginbox{
-    box-sizing: border-box;
-    display: block;
-}
-.form-container {
-    background-color: #fff;
-    padding: 50px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    margin: 10px;
-}
-
-.form-container h2 {
-    margin-top: 0;
-}
-
-.form-container input[type="text"],
-.form-container input[type="password"],
-.form-container button {
-    display: block;
-    width: 100%;
-    margin-bottom: 10px;
-    padding: 8px;
-}
-
-.form-container button {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-}
-
-.message {
-    color: red;
-} */
-
 .note {
   width: 50%;
   height: auto;
@@ -93,13 +48,21 @@ body {
   display: flex;
   flex-direction: column;
   left: 22vw;
-  /* background-color: #240046; */
   background-color: #ce6857;
   max-height: 47rem;
   width: 40rem;
   overflow: hidden;
   border-radius: 12px;
   box-shadow: 7px 7px 10px 3px #24004628;
+}
+@media (max-width: 770px) {
+  .main {
+    width: 100%;
+    left: 0;
+  }
+  .note h1 {
+    font-size: 2rem;
+  }
 }
 
 .form {
